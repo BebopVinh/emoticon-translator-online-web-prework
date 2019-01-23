@@ -10,6 +10,7 @@ def load_library(file_path)
     emoticons['get meaning'] = {emotes.last => english}
     emoticons['get_emoticon'] = {emotes.first => emotes.last}
   end
+  emoticons
 end
 
 def get_japanese_emoticon
