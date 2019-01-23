@@ -14,10 +14,11 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(file_path, emoticon)
+  translation = ""
   emoticons = load_library(file_path)
   emoticons["get_emoticon"].each do |key, value|
     if key == emoticon
-      value
+      translation = value
     else
       "Sorry, emoticon not found."
     end
