@@ -23,6 +23,7 @@ def get_japanese_emoticon(file_path, emoticon)
       translation = "Sorry, emoticon not found."
     end
   end
+  translation
 end
 
 def get_english_meaning
