@@ -20,6 +20,7 @@ def get_japanese_emoticon(file_path, emoticon)
     if key == emoticon
       translation = value
       binding.pry
+      break
     else
       translation = "Sorry, emoticon not found."
     end
