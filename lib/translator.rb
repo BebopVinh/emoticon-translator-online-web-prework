@@ -19,6 +19,7 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticons["get_emoticon"].each do |key, value|
     if key == emoticon
       translation = value
+      binding.pry
     else
       translation = "Sorry, emoticon not found."
     end
